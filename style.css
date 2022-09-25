@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  border: 0;
+  background-color: #0d0d0d;
+  color: white;
+}
+
+header {
+  background-color: #7e49f2;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+nav ol li {
+  list-style: none;
+  padding: 20px;
+  display: inline;
+  box-sizing: border-box;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.nav_btn:hover {
+  background-color: #262473;
+  letter-spacing: normal;
+  transition: all 0.5s ease-in;
+  box-sizing: border-box;
+  border: 10 10;
+  border-radius: 5px;
+}
+
+main {
+  margin-left: 50px;
+}
+
+.main_title {
+  font-size: 67px;
+  font-family: "Gothic A1, sans-serif";
+  margin: 20px 0;
+}
+
+.profile {
+  width: 419px;
+  height: 514px;
+  overflow: hidden;
+}
+
+.profile img:hover {
+  width: 419px;
+  height: 514px;
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+
+.sub_title {
+  color: rgba(255, 252, 213, 0.63);
+  font-size: 13px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* #bottom {
+  float: left;
+} */
+
+h3 {
+  background-color: #222a59;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #b6b9f223;
+  box-sizing: border-box;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+li {
+}
+
+footer {
+  margin-left: 30px;
+  background-color: #222a59;
+}
+
+.minilogo {
+  width: 30px;
+  float: left;
+}
+
+.textlogo {
+  float: left;
+  margin-left: 20px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.bottom_text {
+  margin-left: 30px;
+}
+
+/* footer {
+  padding: 40px;
+  background-color: rgba(211, 211, 211, 0.233);
+} */
+
+@media (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sub-container {
+    display: block;
+  }
+}
